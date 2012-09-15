@@ -12,9 +12,9 @@ import org.spoutcraft.launcher.async.Download;
 
 public class BackgroundImageWorker extends SwingWorker<Object, Object> {
 
-	private static final String	SPLASH_URL				= "http://urcraft.com/technic/splash/index.php";
-	private static final String	TEKKIT_URL_01			= "http://technic.freeworldsgaming.com/tekkit-001.jpg";
-	private static final String	TEKKIT_URL_02			= "http://technicpack.net/wp-content/uploads/2011/12/tekkitaltsmall.png";
+	private static final String	SPLASH_URL				= "http://quebecgmz.ca/mods/hills-resized.jpg";
+	private static final String	TEKKIT_URL_01			= "http://quebecgmz.ca/mods/001.jpg";
+	private static final String	TEKKIT_URL_02			= "http://quebecgmz.ca/mods/002.png";
 	private static final int		IMAGE_CYCLE_TIME	= 24 * 60 * 60 * 1000;
 	private File								backgroundImage;
 	private JLabel							background;

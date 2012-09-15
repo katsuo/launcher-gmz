@@ -36,7 +36,7 @@ public class TumblerFeedParsingWorker extends SwingWorker<Object, Object> implem
 	protected Object doInBackground() {
 		URL url = null;
 		try {
-			url = new URL("http://http://quebecgmz.ca/?page_id=86/");
+			url = new URL("http://quebecgmz.ca/mods/");
 
 			if (MirrorUtils.isAddressReachable(url.toString())) {
 				editorPane.setVisible(false);

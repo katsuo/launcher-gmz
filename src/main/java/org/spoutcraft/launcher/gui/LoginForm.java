@@ -369,7 +369,7 @@ public class LoginForm extends JFrame implements ActionListener, DownloadListene
 		if (SettingsUtil.getModPackSelection() != null) {
 			updateBranding();
 		} else {
-			setTitle("Technic Launcher - No Modpack Selected");
+			setTitle("QuebecGMZ - No Modpack Selected");
 		}
 	}
 
@@ -396,7 +396,7 @@ public class LoginForm extends JFrame implements ActionListener, DownloadListene
 				loginButton.setEnabled(true);
 				optionsButton.setEnabled(true);
 				setIconImage(Toolkit.getDefaultToolkit().getImage(ModPackYML.getModPackIcon()));
-				setTitle(String.format("Technic Launcher - %s - (%s)", Main.build, ModPackListYML.currentModPackLabel));
+				setTitle(String.format("QuebecGMZ Launcher - %s - (%s)", Main.build, ModPackListYML.currentModPackLabel));
 				options.reloadSettings();
 				MinecraftYML.updateMinecraftYMLCache();
 				setModLoaderEnabled();
@@ -936,7 +936,7 @@ public class LoginForm extends JFrame implements ActionListener, DownloadListene
 	@Override
 	public void windowClosed(WindowEvent e) {
 		if (success == LauncherFrame.ERROR_IN_LAUNCH) {
-			Util.log("Exiting the Technic Launcher");
+			Util.log("Exiting the GMZ Launcher");
 			System.exit(0);
 		}
 	}
