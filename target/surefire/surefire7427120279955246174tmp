@@ -1,16 +1,16 @@
 #surefire
-#Fri Sep 14 14:05:51 EDT 2012
-testClassesDirectory=/Users/richard/Documents/TechnicPack-Spoutcraft-Launcher-1fb6c84/target/test-classes
+#Sat Sep 15 08:56:26 EDT 2012
+testClassesDirectory=/Users/richard/Documents/launcher-gmz/target/test-classes
 classPathUrl.4=/Users/richard/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar
 classPathUrl.3=/Users/richard/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
 classPathUrl.2=/Users/richard/.m2/repository/junit/junit/4.10/junit-4.10.jar
 useManifestOnlyJar=true
-classPathUrl.1=/Users/richard/Documents/TechnicPack-Spoutcraft-Launcher-1fb6c84/target/classes
-reportsDirectory=/Users/richard/Documents/TechnicPack-Spoutcraft-Launcher-1fb6c84/target/surefire-reports
-classPathUrl.0=/Users/richard/Documents/TechnicPack-Spoutcraft-Launcher-1fb6c84/target/test-classes
+classPathUrl.1=/Users/richard/Documents/launcher-gmz/target/classes
+reportsDirectory=/Users/richard/Documents/launcher-gmz/target/surefire-reports
+classPathUrl.0=/Users/richard/Documents/launcher-gmz/target/test-classes
 dirscanner.0=directoryScannerOptions
 providerConfiguration=org.apache.maven.surefire.junit4.JUnit4Provider
-testSuiteDefinitionTestSourceDirectory=/Users/richard/Documents/TechnicPack-Spoutcraft-Launcher-1fb6c84/src/test/java
+testSuiteDefinitionTestSourceDirectory=/Users/richard/Documents/launcher-gmz/src/test/java
 surefireClassPathUrl.1=/Users/richard/.m2/repository/org/apache/maven/surefire/surefire-api/2.7.1/surefire-api-2.7.1.jar
 surefireClassPathUrl.0=/Users/richard/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.7.1/surefire-junit4-2.7.1.jar
 report.2=org.apache.maven.surefire.report.XMLReporter
@@ -19,7 +19,7 @@ report.1=org.apache.maven.surefire.report.BriefFileReporter
 report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
 excludes0=**/*$*
 isTrimStackTrace=true
-dirscanner.0.params=/Users/richard/Documents/TechnicPack-Spoutcraft-Launcher-1fb6c84/target/test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+dirscanner.0.params=/Users/richard/Documents/launcher-gmz/target/test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
 includes2=**/*TestCase.java
 enableAssertions=true
 includes1=**/*Test.java
