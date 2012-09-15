@@ -1,5 +1,5 @@
 #surefire
-#Sat Sep 15 08:56:26 EDT 2012
+#Sat Sep 15 12:56:33 EDT 2012
 testClassesDirectory=/Users/richard/Documents/launcher-gmz/target/test-classes
 classPathUrl.4=/Users/richard/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar
 classPathUrl.3=/Users/richard/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
