@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Built-By: richard
+Build-Jdk: 1.6.0_33
+Main-Class: org.spoutcraft.launcher.Main
+Created-By: Maven Integration for Eclipse
+SplashScreen-Image: org/spoutcraft/launcher/splash.gif
+
